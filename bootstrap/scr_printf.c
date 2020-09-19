@@ -11,7 +11,7 @@
  *
  * $Id: scr_printf.c 2450 2009-01-04 23:53:02Z oopo $
  */
-#include <vitasdk.h>
+#include <dolcesdk.h>
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
