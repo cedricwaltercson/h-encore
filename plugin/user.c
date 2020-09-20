@@ -1,7 +1,8 @@
 #include <psp2/kernel/clib.h>
 #include <psp2/kernel/modulemgr.h>
-#include <psp2/io/fcntl.h>
-#include <psp2/io/stat.h>
+#include <psp2kern/kernel/iofilemgr.h>
+//#include <psp2/io/fcntl.h>
+//#include <psp2/io/stat.h>
 #include <psp2/registrymgr.h>
 #include <psp2/system_param.h>
 #include <psp2/power.h>
@@ -31,11 +32,11 @@ static int sceKernelGetSystemSwVersion_SceSettings_patched(SceKernelFwInfo *info
   real_info.size = sizeof(SceKernelFwInfo);
   _vshSblGetSystemSwVersion(&real_info);
   if (BETA_RELEASE) {
-    sceClibSnprintf(info->versionString, 16, "%s \xE5\xA4\x89\xE9\x9D\xA9-%d\xCE\xB2%d", real_info.versionString, HENKAKU_RELEASE, BETA_RELEASE);
+    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9-%d\xCE\xB2%d", real_info.versionString, HENKAKU_RELEASE, BETA_RELEASE);
   } else if (HENKAKU_RELEASE > 1) {
-    sceClibSnprintf(info->versionString, 16, "%s \xE5\xA4\x89\xE9\x9D\xA9-%d", real_info.versionString, HENKAKU_RELEASE);
+    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9-%d", real_info.versionString, HENKAKU_RELEASE);
   } else {
-    sceClibSnprintf(info->versionString, 16, "%s \xE5\xA4\x89\xE9\x9D\xA9", real_info.versionString);
+    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9", real_info.versionString);
   }
   return ret;
 }

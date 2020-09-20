@@ -25,7 +25,7 @@ typedef struct {
 
 // by Nzaki0716 & SnyFbSx & kirisame0017
 language_container_t language_japanese = {  
-  L"HENkakuの設定",
+  L"PSVITAの設定",
   L"PSNの偽装を有効化",
   L"リスクのあるユーザープログラムを有効化",
   L"リスクのあるユーザープログラムは誤った操作や設定、または悪意のあるコードにより端末に修復不可能なダメージを与えることがあります。\nこれらをインストールする際は注意してください。",
@@ -34,8 +34,8 @@ language_container_t language_japanese = {
   L"○ボタンの動作設定",
   L"決定",
   L"キャンセル",
-  L"taiHEN config.txtのリロード",
-  L"taiHEN config.txtのリロードが完了しました。",
+  L"PSVITA config.txtのリロード",
+  L"PSVITA config.txtのリロードが完了しました。",
   L"端末の再起動",
   L"コンテンツ ダウンローダー",
   L"メモリーカードとのリンクを解除する",
@@ -45,7 +45,7 @@ language_container_t language_japanese = {
 
 // by molecule
 language_container_t language_english_us = {
-  L"HENkaku Settings",
+  L"PSVITA Settings",
   L"Enable PSN spoofing",
   L"Enable Unsafe Homebrew",
   L"Unsafe homebrews can damage your device permanently, if they are misused, misconfigured, or malicious.\nPlease take caution when installing them.",
@@ -54,8 +54,8 @@ language_container_t language_english_us = {
   L"○ Button Behavior",
   L"Enter",
   L"Cancel",
-  L"Reload taiHEN config.txt",
-  L"taiHEN config.txt has been successfully reloaded.",
+  L"Reload PSVITA config.txt",
+  L"PSVITA config.txt has been successfully reloaded.",
   L"Reboot Device",
   L"Content Downloader",
   L"Unlink Memory Card",
@@ -65,7 +65,7 @@ language_container_t language_english_us = {
 
 // by jokira & devnoname120 & CelesteBlue-dev & chronoss09 & francl35
 language_container_t language_french = {
-  L"Paramètres de HENkaku",
+  L"Paramètres de PSVITA",
   L"Activer le spoof du PSN",
   L"Autoriser l'installation de homebrews non sécurisés",
   L"Les homebrews non sécurisés peuvent endommager votre système de façon permanente s'ils sont mal utilisés, mal configurés, ou malveillants.\nPrenez garde en activant ce paramètre.",
@@ -74,8 +74,8 @@ language_container_t language_french = {
   L"Action du bouton ○",
   L"Valider",
   L"Annuler",
-  L"Recharger le fichier config.txt de taiHEN",
-  L"Le fichier config.txt de taiHEN a bien été rechargé.",
+  L"Recharger le fichier config.txt de PSVITA",
+  L"Le fichier config.txt de PSVITA a bien été rechargé.",
   L"Redémarrer la console",
   L"Téléchargement de contenu",
   L"Délier la carte mémoire",
@@ -85,7 +85,7 @@ language_container_t language_french = {
 
 // by EricWeichhart & iamn0tdev & WZ-JK
 language_container_t language_spanish = {
-  L"Ajustes de HENkaku",
+  L"Ajustes de PSVITA",
   L"Activar Spoofing para PSN",
   L"Activar Homebrew inseguro",
   L"Homebrews inseguros pueden dañar tu dispositivo permanentemente si son maliciosos, erróneamente usados o configurados incorrectamente.\nPor favor, tenga precaución al instalarlos.",
@@ -94,8 +94,8 @@ language_container_t language_spanish = {
   L"Comportamiento del botón ○",
   L"Aceptar",
   L"Cancelar",
-  L"Recargar taiHEN config.txt",
-  L"taiHEN config.txt ha sido recargado correctamente.",
+  L"Recargar PSVITA config.txt",
+  L"PSVITA config.txt ha sido recargado correctamente.",
   L"Reiniciar dispositivo",
   L"Descargador de Contenido",
   L"Desvincular la Tarjeta de Memoria",
@@ -105,7 +105,7 @@ language_container_t language_spanish = {
 
 // by Ziusun
 language_container_t language_german = {
-  L"HENkaku-Einstellungen",
+  L"PSVITA-Einstellungen",
   L"PSN-Zugang aktivieren",
   L"Unsichere Homebrew zulassen",
   L"Unsichere Homebrew kann das Gerät dauerhaft beschädigen, sollte sie unsachgemäß eingesetzt und konfiguriert werden oder schadhaft sein.\nDie Installation bitte immer mit größter Sorgfalt vornehmen.",
@@ -114,8 +114,8 @@ language_container_t language_german = {
   L"Funktion der ○-Taste",
   L"Bestätigen",
   L"Abbrechen",
-  L"Die config.txt von taiHEN aktualisieren",
-  L"Die config.txt von taiHEN wurde erfolgreich aktualisiert.",
+  L"Die config.txt von PSVITA aktualisieren",
+  L"Die config.txt von PSVITA wurde erfolgreich aktualisiert.",
   L"Gerät neustarten",
   L"Inhaltsdownloader",
   L"Speicherkarte entkoppeln",
@@ -125,7 +125,7 @@ language_container_t language_german = {
 
 // by blackjack4it & Checcolino & Rufis01
 language_container_t language_italian = {
-  L"Impostazioni Henkaku",
+  L"Impostazioni PSVITA",
   L"Abilita lo Spoof PSN",
   L"Abilita Homebrews non sicuri",
   L"Gli Homebrews non sicuri possono danneggiare irrimediabilmente la tua console, se usati/configurati non correttamente o sospetti.\nFai molta attenzione prima di procedere alla loro installazione.",
@@ -134,8 +134,8 @@ language_container_t language_italian = {
   L"Comportamento del tasto ○",
   L"OK",
   L"Annulla",
-  L"Ricarica taiHEN config.txt",
-  L"TaiHEN config.txt ricaricato correttamente.",
+  L"Ricarica PSVITA config.txt",
+  L"PSVITA config.txt ricaricato correttamente.",
   L"Riavvia dispositivo",
   L"Scarica contenuto",
   L"Disassocia Memory Card",
@@ -145,7 +145,7 @@ language_container_t language_italian = {
 
 // by ConsoleHax & 2dook & jja2000
 language_container_t language_dutch = {
-  L"HENkaku Instellingen",
+  L"PSVITA Instellingen",
   L"Activeer PSN spoofing",
   L"Onveilige Homebrew toestaan",
   L"Onveilige homebrew kan uw toestel permanent beschadigen indien deze onjuist geconfigureerd of kwaadaardig zijn.\nLet op met wat u installeert.",
@@ -154,8 +154,8 @@ language_container_t language_dutch = {
   L"Gedrag van de ○-knop",
   L"Enter",
   L"Annuleren",
-  L"Herlaad taiHEN config.txt",
-  L"taiHEN config.txt is succesvol herladen.",
+  L"Herlaad PSVITA config.txt",
+  L"PSVITA config.txt is succesvol herladen.",
   L"Herstart apparaat",
   L"Inhoud downloader",
   L"Geheugenkaart loskoppelen",
@@ -165,7 +165,7 @@ language_container_t language_dutch = {
 
 // by gnmmarechal & menelkir & bosshunter
 language_container_t language_portuguese_pt = {
-  L"Definições do HENkaku",
+  L"Definições do PSVITA",
   L"Ativar spoof da PSN",
   L"Permitir aplicações inseguras",
   L"Aplicações inseguras podem danificar o sistema permanentemente, se forem mal usadas, configuradas ou maliciosas.\nTenha cuidado ao instalá-las.",
@@ -174,8 +174,8 @@ language_container_t language_portuguese_pt = {
   L"Ação do botão ○",
   L"Entrar",
   L"Cancelar",
-  L"Recarrege o ficheiro config.txt do taiHEN",
-  L"O ficheiro taiHEN config.txt foi recarregado com sucesso.",
+  L"Recarrege o ficheiro config.txt do PSVITA",
+  L"O ficheiro PSVITA config.txt foi recarregado com sucesso.",
   L"Reiniciar o dispositivo",
   L"Descarregar Conteúdo",
   L"Desassociar Cartão de Memória",
@@ -185,7 +185,7 @@ language_container_t language_portuguese_pt = {
 
 // by Tenek & MuskratDesman & dec0dOS
 language_container_t language_russian = {
-  L"Настройки HENkaku",
+  L"Настройки PSVITA",
   L"Включить спуфинг PSN",
   L"Включить небезопасные приложения",
   L"Небезопасные приложения могут повредить ваше устройство навсегда, если они используются неправильно, неправильно настроены или вредоносны.\nПожалуйста, проявляйте осторожность при их установке.",
@@ -194,8 +194,8 @@ language_container_t language_russian = {
   L"Поведение кнопки ○",
   L"Ввод",
   L"Отмена",
-  L"Перезагрузить taiHEN config.txt",
-  L"taiHEN config.txt был успешно перезагружен.",
+  L"Перезагрузить PSVITA config.txt",
+  L"PSVITA config.txt был успешно перезагружен.",
   L"Перезапустить устройство",
   L"Загрузчик контента",
   L"Отвязать карту памяти",
@@ -205,7 +205,7 @@ language_container_t language_russian = {
 
 // by TriggerHavoc
 language_container_t language_korean = {
-  L"HENkaku 설정",
+  L"PSVITA 설정",
   L"PSN 스푸핑 활성화",
   L"안전하지 않은 홈브류 허용",
   L"만약 안전하지 않은 홈브류들이 잘못 사용되거나 잘못 구성되거나 또는 악의가 있을 경우 당신의 기기를 영구적으로 손상시킬 수 있습니다. 설치 시 주의해 주세요.",
@@ -214,8 +214,8 @@ language_container_t language_korean = {
   L"○ 버튼 동작",
   L"확인",
   L"취소",
-  L"taiHEN config.txt 다시 불러오기",
-  L"taiHEN config.txt를 성공적으로 다시 불러왔습니다.",
+  L"PSVITA config.txt 다시 불러오기",
+  L"PSVITA config.txt를 성공적으로 다시 불러왔습니다.",
   L"기기 다시 시작",
   L"컨텐츠 다운로더",
   L"메모리 카드 언링크",
@@ -225,7 +225,7 @@ language_container_t language_korean = {
 
 // by iTZQing & FlexingTiger & magpte
 language_container_t language_chinese_t = {
-  L"HENkaku設置",
+  L"PSVITA設置",
   L"啟用PSN偽裝",
   L"啟用不安全自制軟件",
   L"如果不安全自制軟件被誤用、配置出現錯誤或軟件本身是惡意程序，可能會永久性損壞你的設備。\n請謹慎安裝！",
@@ -234,8 +234,8 @@ language_container_t language_chinese_t = {
   L"○鍵配置",
   L"確定",
   L"取消",
-  L"重載taiHEN config.txt",
-  L"重載taiHEN config.txt成功",
+  L"重載PSVITA config.txt",
+  L"重載PSVITA config.txt成功",
   L"重啟設備",
   L"下載內容管理器",
   L"解除記憶卡關聯",
@@ -245,7 +245,7 @@ language_container_t language_chinese_t = {
 
 // by iTZQing & FlexingTiger & magpte
 language_container_t language_chinese_s = {
-  L"HENkaku设置",
+  L"PSVITA设置",
   L"启用PSN伪装",
   L"启用不安全自制软件",
   L"如果不安全自制软件被误用、配置出现错误或软件本身是恶意程序，可能会永久性损坏你的设备。\n请谨慎安装！",
@@ -254,8 +254,8 @@ language_container_t language_chinese_s = {
   L"○键配置",
   L"确定",
   L"取消",
-  L"重载taiHEN config.txt",
-  L"重载taiHEN config.txt成功",
+  L"重载PSVITA config.txt",
+  L"重载PSVITA config.txt成功",
   L"重启设备",
   L"下载内容管理器",
   L"解除存储卡关联",
@@ -265,7 +265,7 @@ language_container_t language_chinese_s = {
 
 // by v5000a & poppamies
 language_container_t language_finnish = {
-  L"HENkakun Asetukset",
+  L"PSVITA Asetukset",
   L"Ota PSN spooffaaminen käyttöön",
   L"Salli vaaralliset homebrew-ohjelmat",
   L"Vaaralliset homebrew-ohjelmat voivat vahingoittaa laitettasi pysyvästi, mikäli niitä käytetään väärin, ne konfiguroidaan väärin, tai ne ovat haittaohjelmia.\nOle varovainen asentaessasi niitä.",
@@ -274,8 +274,8 @@ language_container_t language_finnish = {
   L"○-näppäimen toiminto",
   L"Valitse",
   L"Peruuta",
-  L"Lataa taiHEN config.txt uudelleen",
-  L"taiHEN config.txt uudelleenladattiin onnistuneesti.",
+  L"Lataa PSVITA config.txt uudelleen",
+  L"PSVITA config.txt uudelleenladattiin onnistuneesti.",
   L"Käynnistä laite uudelleen",
   L"Sisällönlataaja",
   L"Irrota muistikortti",
@@ -285,7 +285,7 @@ language_container_t language_finnish = {
 
 // by MrOrbital & GizmoTheGreen & Wassburgare
 language_container_t language_swedish = {
-  L"HENkaku-inställningar",
+  L"PSVITA-inställningar",
   L"Aktivera fejkad PSN-inloggning",
   L"Tillåt osäkra homebrews",
   L"Osäkra homebrews kan skada din enhet permanent om de används felaktigt, är felkonfigurerade eller innehåller skadlig kod.\nVar försiktig vid installation av sådana.",
@@ -294,8 +294,8 @@ language_container_t language_swedish = {
   L"○-knappens beteende",
   L"Välj",
   L"Avbryt",
-  L"Ladda om taiHEN config.txt",
-  L"taiHEN config.txt har laddats om.",
+  L"Ladda om PSVITA config.txt",
+  L"PSVITA config.txt har laddats om.",
   L"Starta om enhet",
   L"Innehållsnedladdare",
   L"Avlänka minneskort",
@@ -305,7 +305,7 @@ language_container_t language_swedish = {
 
 // by coestergaard & andrsnDK
 language_container_t language_danish = {
-  L"HENkaku indstillinger",
+  L"PSVITA indstillinger",
   L"Aktiver PSN spoofing",
   L"Tillad usikre homebrews",
   L"Usikre homebrews kan skade din enhed permanent, hvis de bruges forkert, er fejlkonfigurerede eller indeholder skadelig kode.\nVær forsigtig når du installerer disse.",
@@ -314,8 +314,8 @@ language_container_t language_danish = {
   L"○ knap funktion",
   L"Vælg",
   L"Afbryd",
-  L"Genindlæs taiHEN config.txt",
-  L"taiHEN config.txt er blevet genindlæst.",
+  L"Genindlæs PSVITA config.txt",
+  L"PSVITA config.txt er blevet genindlæst.",
   L"Genstart enhed",
   L"Indholdshenter",
   L"Fjern link til hukommelseskort",
@@ -325,7 +325,7 @@ language_container_t language_danish = {
 
 // by baniel105 & irchagaming & Promises
 language_container_t language_norwegian = {
-  L"HENkaku Instillinger",
+  L"PSVITA Instillinger",
   L"Aktiver forfalsket PSN-innlogging",
   L"Tillat usikker Homebrew",
   L"Usikre Homebrews kan ødelegge enhenten din permanent, hvis de er misbrukt, feilkonfigerert, eller inneholder skadelig programvare.\nVær forsiktig ved installasjon.",
@@ -334,8 +334,8 @@ language_container_t language_norwegian = {
   L"Funksjon på ○-knapp",
   L"Velg",
   L"Avbryt",
-  L"Last på nytt taiHEN config.txt",
-  L"taiHEN config.txt har blitt lastet.",
+  L"Last på nytt PSVITA config.txt",
+  L"PSVITA config.txt har blitt lastet.",
   L"Start enheten på nytt",
   L"Innholds Nedlaster",
   L"Lås opp Minnekort",
@@ -345,7 +345,7 @@ language_container_t language_norwegian = {
 
 // by Grzybojad & szczuru & ItsYogSothoth & szczuru
 language_container_t language_polish = {
-  L"Ustawienia HENkaku",
+  L"Ustawienia PSVITA",
   L"Włącz fałszowanie PSN/SEN (spoofing)",
   L"Zezwól na podejrzane Homebrew",
   L"Podejrzane aplikacje mogą zawierać złośliwe oprogramowanie, przez co mogą trwale uszkodzić twoje urządzenie, jeżeli zostaną niepoprawnie użyte, bądź źle skonfigurowane.\nProszę zachować ostrożność przy ich instalacji.",
@@ -354,8 +354,8 @@ language_container_t language_polish = {
   L"Akcja przycisku ○",
   L"OK",
   L"Anuluj",
-  L"Załaduj ponownie config.txt taiHEN",
-  L"config.txt taiHEN został pomyślnie załadowany ponownie.",
+  L"Załaduj ponownie config.txt PSVITA",
+  L"config.txt PSVITA został pomyślnie załadowany ponownie.",
   L"Uruchom ponownie konsolę",
   L"Pobieranie zawartości",
   L"Odłącz kartę pamięci",
@@ -365,7 +365,7 @@ language_container_t language_polish = {
 
 // by GrayJack & haouingvalt & menelkir
 language_container_t language_portuguese_br = {
-  L"Configurações do HENkaku",
+  L"Configurações do PSVITA",
   L"Habilitar mimetização da PSN ",
   L"Habilitar softwares 'homebrew' inseguros",
   L"Softwares 'homebrew' inseguros podem danificar o seu aparelho permanentemente caso sejam usados ou configurados incorretamente, ou até mesmo maliciosos.\nPor favor, tenha cuidado ao instalá-los.",
@@ -374,8 +374,8 @@ language_container_t language_portuguese_br = {
   L"Ação do botão ○",
   L"Entrar",
   L"Cancelar",
-  L"Recarrege o arquivo config.txt do taiHEN",
-  L"taiHEN config.txt foi recarregado com sucesso.",
+  L"Recarrege o arquivo config.txt do PSVITA",
+  L"PSVITA config.txt foi recarregado com sucesso.",
   L"Reiniciar o dispositivo",
   L"Baixar Conteúdo",
   L"Desassociar o Cartão de Memória",
@@ -385,7 +385,7 @@ language_container_t language_portuguese_br = {
 
 // by molecule
 language_container_t language_english_gb = {
-  L"HENkaku Settings",
+  L"PSVITA Settings",
   L"Enable PSN spoofing",
   L"Enable Unsafe Homebrew",
   L"Unsafe homebrews can damage your device permanently, if they are misused, misconfigured, or malicious.\nPlease take caution when installing them.",
@@ -394,8 +394,8 @@ language_container_t language_english_gb = {
   L"○ Button Behaviour",
   L"Enter",
   L"Cancel",
-  L"Reload taiHEN config.txt",
-  L"taiHEN config.txt has been successfully reloaded.",
+  L"Reload PSVITA config.txt",
+  L"PSVITA config.txt has been successfully reloaded.",
   L"Reboot Device",
   L"Content Downloader",
   L"Unlink Memory Card",
@@ -405,7 +405,7 @@ language_container_t language_english_gb = {
 
 // by Chronicl3
 language_container_t language_turkish = {
-  L"HENkaku Ayarları",
+  L"PSVITA Ayarları",
   L"PSN spoofing Etkinleştir",
   L"Yabancı Uygulamalara İzin Ver ",
   L"Bilinmeyen kaynaklardan uygulama yüklerken dikkatli olunuz.\nKötü niyetli,yanlış yapılandırılmış uygulamalar cihazınıza kalıcı zararlar verebilir.",
@@ -414,8 +414,8 @@ language_container_t language_turkish = {
   L"○ Düğmesi Davranışı",
   L"Gir",
   L"İptal",
-  L"taiHEN config.txt'yi yeniden yükle",
-  L"taiHEN config.txt başarılı bir şekilde yeniden yüklendi.",
+  L"PSVITA config.txt'yi yeniden yükle",
+  L"PSVITA config.txt başarılı bir şekilde yeniden yüklendi.",
   L"Cihazı yeniden başlat",
   L"İçerik İndiricisi",
   L"Hafıza Kartı Bağlantısını Kaldır",

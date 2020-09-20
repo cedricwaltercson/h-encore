@@ -11,7 +11,7 @@ endif()
 project(HENkaku)
 include("${DOLCESDK}/share/dolce.cmake" REQUIRED)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -fshort-wchar -O3 -std=gnu99")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -fshort-wchar -O3 -Wno-implicit-function-declaration -std=gnu99")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-rtti -fno-exceptions")
 
 include_directories(

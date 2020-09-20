@@ -909,8 +909,8 @@ void __attribute__ ((section (".text.start"))) payload(void *rx_block, uint32_t 
 	int state;
 	ENTER_SYSCALL(state);
 
-	// flash purple
-	flash_screen(framebuf, 0xFFFF00FF);
+	// flash blue
+	flash_screen(framebuf, 0xFFFF0000);
 
 	LOG("+++ Entered kernel payload +++");
 	LOG("payload=0x%x, size=0x%x, sp=0x%x", payload, rx_size, &ret);

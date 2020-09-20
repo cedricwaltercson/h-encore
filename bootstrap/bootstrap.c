@@ -26,7 +26,7 @@ const char taihen_config_recovery_header[] =
   "# This file is used as an alternative if ux0:tai/config.txt is not found.\n";
 
 const char taihen_config_header[] =
-  "# For users plugins, you must refresh taiHEN from HENkaku Settings for\n"
+  "# For users plugins, you must refresh PSVITA config.txt from PSVITA Settings for\n"
   "# changes to take place.\n"
   "# For kernel plugins, you must reboot for changes to take place.\n";
 
@@ -53,10 +53,10 @@ enum Items {
 
 const char *items[] = {
   "Exit",
-  "Install HENkaku",
+  "Unlock PSVITA",
   "Download VitaShell",
   "Personalize savedata",
-  "Reset taiHEN config.txt"
+  "Reset PSVITA config.txt"
 };
 
 #define N_ITEMS (sizeof(items) / sizeof(char *))
@@ -525,7 +525,7 @@ int module_start(SceSize args, void *argp) {
         sceKernelDelayThread(500 * 1000);
         break;
       } else if (sel == INSTALL_HENKAKU) {
-        printf(" > Installing HENkaku...\n");
+        printf(" > Unlocking PSVITA...\n");
         sceKernelDelayThread(500 * 1000);
         res = install_henkaku();
       } else if (sel == DOWNLOAD_VITASHELL) {
@@ -537,8 +537,8 @@ int module_start(SceSize args, void *argp) {
         sceKernelDelayThread(500 * 1000);
         res = personalize_savedata(syscall_id);
       } else if (sel == RESET_TAIHEN_CONFIG) {
-        if (wait_confirm(" > Are you sure you want to reset taiHEN config.txt?\n")) {
-          printf(" > Resetting taiHEN config.txt...\n");
+        if (wait_confirm(" > Are you sure you want to reset PSVITA config.txt?\n")) {
+          printf(" > Resetting PSVITA config.txt...\n");
           sceKernelDelayThread(500 * 1000);
           res = reset_taihen_config();
         } else {
@@ -565,7 +565,7 @@ int module_start(SceSize args, void *argp) {
   if (!exists("ur0:tai/henkaku.suprx") ||
       !exists("ur0:tai/henkaku.skprx") ||
       !exists("ur0:tai/taihen.skprx")) {
-    printf(" > Installing HENkaku...\n");
+    printf(" > Installing PSVITA Unlock...\n");
     sceKernelDelayThread(500 * 1000);
     res = install_henkaku();
     print_result(res);
@@ -574,7 +574,7 @@ int module_start(SceSize args, void *argp) {
   // Write taiHEN configs if both at ur0: and ux0: don't exist
   if (!exists("ur0:tai/config.txt") &&
       !exists("ux0:tai/config.txt")) {
-    printf(" > Writing taiHEN config.txt...\n");
+    printf(" > Writing PSVITA config.txt...\n");
     sceKernelDelayThread(500 * 1000);
     res = reset_taihen_config();
     print_result(res);
@@ -596,7 +596,7 @@ int module_start(SceSize args, void *argp) {
 
   if (res < 0 && res != 0x8002D013 && res != 0x8002D017) {
     printf(" > Failed to load HENkaku! 0x%08X\n", res);
-    printf(" > Please relaunch the exploit and select 'Install HENkaku'.\n");
+    printf(" > Please relaunch the exploit and select 'Unlock PSVITA'.\n");
     sceKernelDelayThread(5 * 1000 * 1000);
   }
 
