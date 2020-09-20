@@ -76,7 +76,7 @@ target_link_libraries(kernel
   SceThreadmgrForDriver_stub
 )
 
-add_dependencies(user henkaku-stubs)
+#add_dependencies(user henkaku-stubs)
 
 set_target_properties(kernel
   PROPERTIES LINK_FLAGS "-nostdlib"
