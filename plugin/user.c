@@ -32,11 +32,11 @@ static int sceKernelGetSystemSwVersion_SceSettings_patched(SceKernelFwInfo *info
   real_info.size = sizeof(SceKernelFwInfo);
   _vshSblGetSystemSwVersion(&real_info);
   if (BETA_RELEASE) {
-    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9-%d\xCE\xB2%d", real_info.versionString, HENKAKU_RELEASE, BETA_RELEASE);
+    sceClibSnprintf(info->versionString, 16, "%s \xE2\x92\xB8-%d\xCE\xB2%d", real_info.versionString, HENKAKU_RELEASE, BETA_RELEASE);
   } else if (HENKAKU_RELEASE > 1) {
-    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9-%d", real_info.versionString, HENKAKU_RELEASE);
+    sceClibSnprintf(info->versionString, 16, "%s \xE2\x92\xB8-%d", real_info.versionString, HENKAKU_RELEASE);
   } else {
-    sceClibSnprintf(info->versionString, 16, "%s \xC2\xA9", real_info.versionString);
+    sceClibSnprintf(info->versionString, 16, "%s \xE2\x92\xB8", real_info.versionString);
   }
   return ret;
 }
