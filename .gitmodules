@@ -1,3 +1,6 @@
 [submodule "taiHEN"]
 	path = taiHEN
 	url = git://github.com/TheOfficialFloW/taiHEN.git
+[submodule "h-encore"]
+	path = h-encore
+	url = https://github.com/cedricwaltercson/h-encore
