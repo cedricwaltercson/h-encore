@@ -13,7 +13,7 @@ A technical explanation of the *h-encore* exploit chain is available [here](http
 - Added ability to auto-exit and bypass the bootstrap menu. You can force launching the bootstrap menu by holding R while launching *h-encore*).
 - Added ability to personalize the savedata in order to get rid of the trophy warning.
 - Added confirmation dialog for `Reset taiHEN config.txt` option.
-- Updated default spoof version to 3.70.
+- Updated default spoof version to 9.99.
 - Updated kernel ROP chain to use fewer and better gadgets.
 
 ## Requirements
