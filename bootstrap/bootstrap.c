@@ -26,7 +26,7 @@ const char taihen_config_recovery_header[] =
   "# This file is used as an alternative if ux0:tai/config.txt is not found.\n";
 
 const char taihen_config_header[] =
-  "# For users plugins, you must refresh PSVITA config.txt from PSVITA Settings for\n"
+  "# For users plugins, you must Reload Plugin from Advanced Settings for\n"
   "# changes to take place.\n"
   "# For kernel plugins, you must reboot for changes to take place.\n";
 
@@ -56,7 +56,7 @@ const char *items[] = {
   "Unlock PSVITA",
   "Download VitaShell",
   "Personalize savedata",
-  "Reset PSVITA config.txt"
+  "Reload Plugins"
 };
 
 #define N_ITEMS (sizeof(items) / sizeof(char *))
@@ -537,8 +537,8 @@ int module_start(SceSize args, void *argp) {
         sceKernelDelayThread(500 * 1000);
         res = personalize_savedata(syscall_id);
       } else if (sel == RESET_TAIHEN_CONFIG) {
-        if (wait_confirm(" > Are you sure you want to reset PSVITA config.txt?\n")) {
-          printf(" > Resetting PSVITA config.txt...\n");
+        if (wait_confirm(" > Are you sure you want to reload Plugins?\n")) {
+          printf(" > Reloading Plugins...\n");
           sceKernelDelayThread(500 * 1000);
           res = reset_taihen_config();
         } else {
@@ -574,7 +574,7 @@ int module_start(SceSize args, void *argp) {
   // Write taiHEN configs if both at ur0: and ux0: don't exist
   if (!exists("ur0:tai/config.txt") &&
       !exists("ux0:tai/config.txt")) {
-    printf(" > Writing PSVITA config.txt...\n");
+    printf(" > Writing Plugins Configuration File...\n");
     sceKernelDelayThread(500 * 1000);
     res = reset_taihen_config();
     print_result(res);
@@ -595,7 +595,7 @@ int module_start(SceSize args, void *argp) {
   call_syscall(0, 0, 0, syscall_id + 3);
 
   if (res < 0 && res != 0x8002D013 && res != 0x8002D017) {
-    printf(" > Failed to load HENkaku! 0x%08X\n", res);
+    printf(" > Failed to load! 0x%08X\n", res);
     printf(" > Please relaunch the exploit and select 'Unlock PSVITA'.\n");
     sceKernelDelayThread(5 * 1000 * 1000);
   }
