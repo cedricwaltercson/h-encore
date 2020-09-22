@@ -13,7 +13,7 @@ A technical explanation of the *h-encore* exploit chain is available [here](http
 - Added ability to auto-exit and bypass the bootstrap menu. You can force launching the bootstrap menu by holding R while launching *h-encore*).
 - Added ability to personalize the savedata in order to get rid of the trophy warning.
 - Added confirmation dialog for `Reset taiHEN config.txt` option.
-- Updated default spoof version to 3.70.
+- Updated default spoof version to 9.99.
 - Updated kernel ROP chain to use fewer and better gadgets.
 
 ## Requirements
@@ -70,11 +70,11 @@ Note that the following guide is for advanced users and a bit more complicated t
 
 13. Enjoy. Note that you have to relaunch the exploit everytime you reboot or shutdown your device. Of course if you only put your device into standby mode, you don't need to relaunch.
 
-## Updating to h-encore 2.0
+## Updating
 
 You can update *h-encore* by following the installation guide above, or following these steps (*h-encore* must already be installed).
 
-1. Download [h-encore's system.dat](https://github.com/TheOfficialFloW/h-encore/releases/download/v2.0/system.dat).
+1. Compile project to get system.dat
 2. Enable `Unsafe Homebrews` under `HENkaku Settings` in the Settings application to grant VitaShell full permission.
 3. Launch VitaShell and navigate to `ux0:user/00/savedata/`.
 4. Press triangle on the folder `PCSG90096` and select `Open decrypted` (you should NOT see the folder `sce_pfs` within this folder when opened decrypted).
