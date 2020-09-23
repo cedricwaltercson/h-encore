@@ -10,7 +10,7 @@
 #include "pspdebug.h"
 
 #define WHITE 0xFFFFFFFF
-#define AZURE 0xFFFF7F00
+#define AZURE 0xFFFF0000
 
 #define printf psvDebugScreenPrintf
 
