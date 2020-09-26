@@ -6,7 +6,7 @@
  * of the MIT license.  See the LICENSE file for details.
  */
 
-#include <dolcesdk.h>
+#include <vitasdk.h>
 #include "pspdebug.h"
 
 #define WHITE 0xFFFFFFFF

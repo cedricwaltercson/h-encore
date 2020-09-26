@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 2.8)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
-	if(DEFINED ENV{DOLCESDK})
-		set(CMAKE_TOOLCHAIN_FILE "$ENV{DOLCESDK}/share/dolce.toolchain.cmake" CACHE PATH "toolchain file")
+	if(DEFINED ENV{VITASDK})
+		set(CMAKE_TOOLCHAIN_FILE "$ENV{VITASDK}/share/vita.toolchain.cmake" CACHE PATH "toolchain file")
   else()
-	  message(FATAL_ERROR "Please define DOLCESDK to point to your SDK path!")
+	  message(FATAL_ERROR "Please define VITASDK to point to your SDK path!")
   endif()
 endif()
 
 project(HENkaku)
-include("${DOLCESDK}/share/dolce.cmake" REQUIRED)
+include("${VITASDK}/share/vita.cmake" REQUIRED)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -fshort-wchar -O3 -Wno-implicit-function-declaration -std=gnu99")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-rtti -fno-exceptions")
@@ -87,14 +87,14 @@ set_target_properties(user
   PROPERTIES LINK_FLAGS "-nostdlib"
 )
 
-dolce_create_self(henkaku.skprx kernel
+vita_create_self(henkaku.skprx kernel
   UNSAFE
   CONFIG ${CMAKE_SOURCE_DIR}/kernel.yml
 )
-dolce_create_stubs(henkaku-stubs kernel ${CMAKE_SOURCE_DIR}/kernel.yml
+vita_create_stubs(henkaku-stubs kernel ${CMAKE_SOURCE_DIR}/kernel.yml
   KERNEL
 )
-dolce_create_self(henkaku.suprx user
+vita_create_self(henkaku.suprx user
   UNSAFE
   CONFIG ${CMAKE_SOURCE_DIR}/user.yml
 )

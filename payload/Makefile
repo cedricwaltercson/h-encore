@@ -1,12 +1,12 @@
 TARGET  = payload
 OBJS    = payload.o
 
-PREFIX  = arm-dolce-eabi
+PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
 AS      = $(PREFIX)-as
 OBJCOPY = $(PREFIX)-objcopy
-CFLAGS  = -fPIE -fno-zero-initialized-in-bss -std=c99 -mcpu=cortex-a9 -Os -mthumb
-LDFLAGS = -T linker.x -nostartfiles -nostdlib -pie
+CFLAGS  = -fPIE -fno-zero-initialized-in-bss -Wno-builtin-declaration-mismatch -std=c99 -mcpu=cortex-a9 -Os -mthumb
+LDFLAGS = -T linker.x -nostartfiles -pie
 
 all: $(TARGET).bin
 

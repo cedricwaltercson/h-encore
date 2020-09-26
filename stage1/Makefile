@@ -1,7 +1,7 @@
 TARGET  = stage1
 OBJS    = stage1.o
 
-PREFIX  = arm-dolce-eabi
+PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
 AS      = $(PREFIX)-as
 OBJCOPY = $(PREFIX)-objcopy
